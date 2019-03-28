@@ -22,3 +22,22 @@
 .App-link {
   color: #61dafb;
 }
+
+p.event {
+  color: #fff;
+  font-size: 24px;
+}
+
+p.event:nth-child(2) {
+  opacity: 0.3;
+}
+
+p.event:nth-child(3) {
+  opacity: 0.2;
+  font-size: 20px;
+}
+
+p.event--active {
+  font-size: 32px;
+  color: #FF5544;
+}
