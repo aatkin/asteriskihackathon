@@ -7,7 +7,7 @@ import reaktorlogo from "./public/Reaktor_Logo_NeonRed_RGB.png";
 import "./App.css";
 
 const events = [
-  { name: "Event begins", startTime: new Date("Mar 28 2019 17:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 17:59:59 GMT+0200") },
+  { name: "Event begins", startTime: new Date("Mar 29 2019 17:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 17:59:59 GMT+0200") },
   { name: "Workshopping", startTime: new Date("Mar 29 2019 18:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 19:29:59 GMT+0200") },
   { name: "Break", startTime: new Date("Mar 29 2019 19:30:00 GMT+0200"), endTime: new Date("Mar 29 2019 19:44:59 GMT+0200") },
   { name: "Workshopping", startTime: new Date("Mar 29 2019 19:45:00 GMT+0200"), endTime: new Date("Mar 29 2019 21:14:59 GMT+0200") },
