@@ -5,8 +5,6 @@ import asteriskilogo from "./public/Asteriski_ry_logo_2017_kelt.png";
 import reaktorlogo from "./public/Reaktor_Logo_NeonRed_RGB.png";
 import "./App.css";
 
-// import events from "./events.json";
-
 const isUpcomingEvent = event => isAfter(event.endTime, new Date());
 const getVisibleEvents = compose(
   take(3),
