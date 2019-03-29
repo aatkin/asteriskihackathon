@@ -19,5 +19,38 @@
 }
 
 .App-events {
-  color: #FFFFFF;
+  color: #ffffff;
+  display: flex;
+  margin-top: 2em;
+  justify-content: center;
+}
+
+.App-events__eventNameContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.App-events__eventDateContainer {
+  display: flex;
+  flex-direction: column;
+  margin-left: 3em;
+}
+
+p.event {
+  color: #fff;
+  font-size: 24px;
+}
+
+p.event:nth-child(2) {
+  opacity: 0.3;
+}
+
+p.event:nth-child(3) {
+  opacity: 0.2;
+  font-size: 20px;
+}
+
+p.event--active {
+  font-size: 32px;
+  color: #FF5544;
 }
