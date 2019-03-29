@@ -1,8 +1,11 @@
 # Asteriski x Reaktor workshop 29.3.2019
 
-## TODO
- - [ ] Fetch events to front-end from our minimalist back-end app
+Ideas for later development:
+- [ ] Deploy to cloud service (`heroku`, `now.sh`, etc.)
+- [ ] Add DB of choice (`postgresql`, `mongodb`, etc.) with `docker` for persistence
+- [ ] Add `redux` to manage global state with auto-refreshing event fetching
 ---
+- [x] Fetch events to front-end from our minimalist back-end app
 - [x] Add endpoint to `server.js` for fetching `events.json`
 - [x] Install `express.js` and create file for back-end application
  ```bash

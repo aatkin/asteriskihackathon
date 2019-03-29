@@ -5,7 +5,7 @@ import asteriskilogo from "./public/Asteriski_ry_logo_2017_kelt.png";
 import reaktorlogo from "./public/Reaktor_Logo_NeonRed_RGB.png";
 import "./App.css";
 
-import events from "./events.json";
+// import events from "./events.json";
 
 const isUpcomingEvent = event => isAfter(event.endTime, new Date());
 const getVisibleEvents = compose(
@@ -57,14 +57,27 @@ class App extends Component {
     super(props);
     this.state = {
       time: Date.now(),
-      interval: window.setInterval(() => this.setState({ time: Date.now() }), 1000)
+      interval: window.setInterval(() => this.setState({ time: Date.now() }), 1000),
+      events: []
     };
+  }
+
+  async componentDidMount() {
+    const response = await window.fetch('http://localhost:3000/events');
+    try {
+      const events = await response.json();
+      this.setState({ events });
+    } catch (e) {
+      console.error(e);
+    }
   }
 
   componentWillUnmount() {
     window.clearTimeout(this.state.interval);
   }
   render() {
+    const { events } = this.state;
+
     return (
       <div className="App">
         <header className="App-header">
