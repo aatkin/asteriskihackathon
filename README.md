@@ -1,6 +1,12 @@
 # Asteriski x Reaktor workshop 29.3.2019
 
 ## TODO
+ - [ ] Install `express.js` and create file for back-end application
+ ```bash
+$ npm i -s express
+$ touch server.js
+ ```
+---
 - [x] Create `<TimeView />` component that display current time and date
  - [x] Create `<Events />` component to render upcoming events and make the list look nicer `:)`
  - [x] Refactor event list to show only three upcoming events (using method of your choice, e.g. `ramda`)
