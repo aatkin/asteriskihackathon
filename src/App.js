@@ -1,9 +1,15 @@
 import React, { Component } from "react";
+import { format } from "date-fns";
 import asteriskilogo from "./public/Asteriski_ry_logo_2017_kelt.png";
 import reaktorlogo from "./public/Reaktor_Logo_NeonRed_RGB.png";
 import "./App.css";
 
 import events from "./events.json";
+
+const mapEvent = event => {
+  const startTime = format(new Date(event.startTime), "HH.mm");
+  return `${event.name} ${startTime}`;
+};
 
 class App extends Component {
   render() {
@@ -16,9 +22,7 @@ class App extends Component {
         </header>
         <div className="App-events">
           {events.map((event, index) => (
-            <p key={index}>
-              {event.name} {event.startTime} {event.endTime}
-            </p>
+            <p key={index}>{mapEvent(event)}</p>
           ))}
         </div>
       </div>
