@@ -52,5 +52,14 @@ p.event:nth-child(3) {
 
 p.event--active {
   font-size: 32px;
-  color: #FF5544;
+  color: #ff5544;
+}
+
+.App-timeView {
+  display: flex;
+  margin: 2em 20vw 0 20vw;
+  padding-bottom: 2em;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+  flex-direction: column;
+  justify-content: center;
 }
