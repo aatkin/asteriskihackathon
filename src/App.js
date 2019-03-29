@@ -35,16 +35,7 @@ const Events = props => (
 );
 
 const TimeView = props => (
-  <div
-    style={{
-      display: "flex",
-      margin: "2em 20vw 0 20vw",
-      paddingBottom: "2em",
-      borderBottom: "1px solid rgba(255, 255, 255, 0.4)",
-      flexDirection: "column",
-      justifyContent: "center"
-    }}
-  >
+  <div className="App-timeView">
     <p style={{ color: "#FFF", fontSize: "32px" }}>{format(props.time, "HH.mm:ss")}</p>
     <p style={{ color: "#FFF", fontSize: "24px", marginTop: 0 }}>
       {format(props.time, "dddd D.MM.")}
