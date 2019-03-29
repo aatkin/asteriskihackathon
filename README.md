@@ -1,8 +1,9 @@
 # Asteriski x Reaktor workshop 29.3.2019
 
 ## TODO
-  - [ ] Add endpoint to `server.js` for fetching `events.json`
+ - [ ] Fetch events to front-end from our minimalist back-end app
 ---
+- [x] Add endpoint to `server.js` for fetching `events.json`
 - [x] Install `express.js` and create file for back-end application
  ```bash
 $ npm i -s express
