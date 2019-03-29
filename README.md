@@ -1,7 +1,6 @@
 # Asteriski x Reaktor workshop 29.3.2019
 
 ## TODO
- - [ ] Add `Asteriski logo` and `Reaktor logo` to the page
- - [ ] Show a list of events below logos with the format 
+ - [ ] Refactor event list to show human readable time instead of timestamps using `date-fns`
 ```javascript
-{name} {startTime} {endTime}
+format startTime 'HH.mm'

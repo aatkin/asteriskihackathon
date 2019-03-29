@@ -1,7 +1,9 @@
 .App {
+  position: relative;
   background-color: #282c34;
   text-align: center;
   height: 100vh;
+  padding-top: 20vh;
 }
 
 .App-logo {
@@ -14,4 +16,8 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.App-events {
+  color: #FFFFFF;
 }
