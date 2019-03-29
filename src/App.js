@@ -7,27 +7,28 @@ import reaktorlogo from "./public/Reaktor_Logo_NeonRed_RGB.png";
 import "./App.css";
 
 const events = [
-  { name: "Event begins", startTime: new Date("Mar 29 2019 17:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 17:59:59 GMT+0200") },
-  { name: "Workshopping", startTime: new Date("Mar 29 2019 18:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 19:29:59 GMT+0200") },
-  { name: "Break", startTime: new Date("Mar 29 2019 19:30:00 GMT+0200"), endTime: new Date("Mar 29 2019 19:44:59 GMT+0200") },
-  { name: "Workshopping", startTime: new Date("Mar 29 2019 19:45:00 GMT+0200"), endTime: new Date("Mar 29 2019 21:14:59 GMT+0200") },
+  { name: "Event begins", startTime: new Date("Mar 29 2019 18:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 18:14:59 GMT+0200") },
+  { name: "Workshopping", startTime: new Date("Mar 29 2019 18:15:00 GMT+0200"), endTime: new Date("Mar 29 2019 19:44:59 GMT+0200") },
+  { name: "Break", startTime: new Date("Mar 29 2019 19:45:00 GMT+0200"), endTime: new Date("Mar 29 2019 19:59:59 GMT+0200") },
+  { name: "Workshopping", startTime: new Date("Mar 29 2019 20:00:00 GMT+0200"), endTime: new Date("Mar 29 2019 21:29:59 GMT+0200") },
   {
     name: "Playtime over. Hackathon begins!",
-    startTime: new Date("Mar 29 2019 21:15:00 GMT+0200"),
+    startTime: new Date("Mar 29 2019 21:30:00 GMT+0200"),
     endTime: new Date("Mar 29 2019 23:59:59 GMT+0200")
   },
-  { name: "Breakfast", startTime: new Date("Mar 30 2019 10:00:00 GMT+0200"), endTime: new Date("Mar 30 2019 10:59:59 GMT+0200") },
+  { name: "Breakfast", startTime: new Date("Mar 30 2019 09:00:00 GMT+0200"), endTime: new Date("Mar 30 2019 09:59:59 GMT+0200") },
   {
     name: "First rounds of demo",
     startTime: new Date("Mar 30 2019 12:00:00 GMT+0200"),
-    endTime: new Date("Mar 30 2019 12:29:59 GMT+0200")
+    endTime: new Date("Mar 30 2019 12:59:59 GMT+0200")
   },
   { name: "Lunch", startTime: new Date("Mar 30 2019 13:00:00 GMT+0200"), endTime: new Date("Mar 30 2019 13:59:59 GMT+0200") },
   {
     name: "Second rounds of demo",
-    startTime: new Date("Mar 30 2019 18:00:00 GMT+0200"),
-    endTime: new Date("Mar 30 2019 18:59:59 GMT+0200")
+    startTime: new Date("Mar 30 2019 17:00:00 GMT+0200"),
+    endTime: new Date("Mar 30 2019 17:59:59 GMT+0200")
   },
+  { name: "Dinner", startTime: new Date("Mar 30 2019 18:00:00 GMT+0200"), endTime: new Date("Mar 30 2019 18:59:59 GMT+0200") },
   {
     name: "Finish. Hackathon is over!",
     startTime: new Date("Mar 30 2019 22:00:00 GMT+0200"),
