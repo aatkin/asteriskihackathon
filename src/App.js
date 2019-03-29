@@ -52,8 +52,8 @@ class App extends Component {
   }
 
   async componentDidMount() {
-    const response = await window.fetch('http://localhost:3000/events');
     try {
+      const response = await window.fetch('http://localhost:3000/events');
       const events = await response.json();
       this.setState({ events });
     } catch (e) {
