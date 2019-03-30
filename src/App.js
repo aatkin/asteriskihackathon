@@ -28,7 +28,7 @@ const events = [
     startTime: new Date("Mar 30 2019 18:00:00 GMT+0200"),
     endTime: new Date("Mar 30 2019 18:59:59 GMT+0200")
   },
-  { name: "Dinner (around this time)", startTime: new Date("Mar 30 2019 19:45:00 GMT+0200"), endTime: new Date("Mar 30 2019 20:14:59 GMT+0200") },
+  { name: "Dinner (around this time)", startTime: new Date("Mar 30 2019 19:20:00 GMT+0200"), endTime: new Date("Mar 30 2019 20:14:59 GMT+0200") },
   {
     name: "Finish. Hackathon is over!",
     startTime: new Date("Mar 30 2019 20:30:00 GMT+0200"),
